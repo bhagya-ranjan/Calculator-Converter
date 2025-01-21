@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class = "heading">
+            <h2>CALCULATOR</h2>
+            <div class="converter"><a class = "link" href = "converter.html" target = "_main">CONVERTER</a></div>
+        </div>
+        
+    </header>
+    <main>
+        <div class="content">
+            <div class="solution">
+                <div class="answer empty">0</div>
+            </div>
+            <div class="board">
+                <div class="box clear">AC</div>
+                <div class="box" id = "delete"><i class="fa-solid fa-delete-left"></i></div>
+                <div class="box sign">**</div>
+                <div class="box sign">/</div>
+                <div class="box num">7</div>
+                <div class="box num">8</div>
+                <div class="box num">9</div>
+                <div class="box sign">*</div>
+                <div class="box num">4</div>
+                <div class="box num">5</div>
+                <div class="box num">6</div>
+                <div class="box sign">-</div>
+                <div class="box num">1</div>
+                <div class="box num">2</div>
+                <div class="box num">3</div>
+                <div class="box sign">+</div>
+                <div class="box"></div>
+                <div class="box num">0</div>
+                <div class="box num">.</div>
+                <div class="box equals" id = "equals">=</div>
+            </div>
+        </div>
+    </main>
+    <script src = "app.js"></script>
+</body>
+</html>

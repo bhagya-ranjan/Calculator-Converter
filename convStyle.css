@@ -1,0 +1,37 @@
+body{
+    display:flex;
+    justify-content: center;
+    background-image: url("/projectImages/body.png");
+    background-size: 100%;
+}
+.allBoxes{
+    margin-top: 2rem;
+    height : 90vh;
+    width : 90vh;
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap: 1.5rem;
+}
+.conv-box{
+    text-decoration: none;
+    color: rgb(196, 223, 247);
+    font-size:2rem;
+    font-family: cursive;
+    height:27vh;
+    width:27vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #030c13;
+    border-radius: 20%;
+}
+.images{
+    padding: 0px;
+    margin: 0px;
+    object-fit: cover;
+    background-position: center;
+    height: 160px;
+    width : 10rem;
+    border-radius: 20%;
+}

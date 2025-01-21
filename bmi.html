@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel = "stylesheet" href = "styleBmi.css">
+</head>
+<body>
+    <h2>BMI CALCULATOR</h2>
+    <div class="info">
+        <p id = "heading"><b>ABOUT BMI</b></p>
+        <p id = "content">Body mass index(BMI) is a person's weight in kilograms divided by the square of height in meters.BMI is an easy screening method for weight category</p>
+    </div>
+    <div class="inputs">
+        <label class = "label" for="weight">Weight (in kg):</label>
+        <input type="number" min = "1" id="weight" name="weight" placeholder="Enter Weight in KG"/>
+        <label class = "label" for = "height">Height (in cms):</label>
+        <input type="number" min = "1" id="height" name="height" placeholder="Enter Height in CMs"/>
+    </div>
+    <div class = "btn">
+        <button id = "submitbtn"type = "submit">Calculate</button>
+    </div>
+    <div class="result">Please enter both height and weight</div>
+    <script src = "bmi_app.js"></script>
+</body>
+</html>
