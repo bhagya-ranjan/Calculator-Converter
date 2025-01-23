@@ -1,5 +1,5 @@
 body{
-    background-image: url("/projectImages/bmiBG.png");
+    background-image: url("projectImages/bmiBG.png");
 }
 h2{
     display: flex;

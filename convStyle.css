@@ -1,7 +1,7 @@
 body{
     display:flex;
     justify-content: center;
-    background-image: url("/projectImages/body.png");
+    background-image: url("projectImages/body.png");
     background-size: 100%;
 }
 .allBoxes{
