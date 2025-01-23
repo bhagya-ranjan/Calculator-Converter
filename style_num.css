@@ -1,0 +1,77 @@
+body{
+    background-color: #080705;
+    margin: 0px;
+    padding: 0px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 4vh;
+    font-family: monospace;
+    font-weight: 600;
+    color : #fffffa;
+}
+#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width : 25rem;
+    height : 4rem;
+    background-color: #702632;
+
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width : 50vh;
+}
+.board{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height:50vh;
+    width:60vh;
+    text-align: center;
+    gap:0.3rem;
+
+}
+.box{
+    background: none;
+    align-content: center;
+    font-size: 2rem;
+    padding:0.25rem;
+    height : 4.4rem;
+    width:  4.4rem;
+    border: 2px solid black;
+    border-radius: 30%;
+    background-color: #303030;
+    color: #eb841c;
+    font-family: monospace;
+}
+.box:hover{
+    background-color : rgba(180,180,180,0.5);
+    cursor: pointer;
+}
+.num{
+    color:white;
+}
+.equals{
+    color:white;
+}
+#equals{
+    background-color: #eb841c;
+}
+.display{
+    height : 10rem;
+    margin-bottom: 3rem;
+}
+.num-one{
+    height : 5rem;
+}
+.num-two{
+    height : 5rem;
+}
