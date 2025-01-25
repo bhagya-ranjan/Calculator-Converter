@@ -8,7 +8,8 @@ let userWeight;
 let userHeight;
 let feedback;
 let bmiValue;
-
+let minweight;
+let maxweight;
 //don't use 'input' eventlistener , use "change" as in :input: whenever u enter
 //a number it gets printed like :- 4 , 45 , 456 (we enetered)
 weight.addEventListener("change" , ()=>{ 
@@ -32,9 +33,11 @@ let showFeedback = ()=>{
 }
 let showResult = ()=>{
     bmiValue = eval(userWeight / ((userHeight * userHeight)/10000)).toFixed(2);
+    minweight = (((userHeight * userHeight)/10000) *18.5).toFixed(2);
+    maxweight = (((userHeight * userHeight)/10000) *24.9).toFixed(2);
     showFeedback();
     if(h && w){
-        result.innerText = bmiValue + " " + feedback;
+        result.innerText = "BMI: " +bmiValue + " " + feedback + `/ Healthy weight range for you : (${minweight} Kg to ${maxweight} Kg)`;
     }else{
         result.innerText = "Please enter both height and weight";
     }
