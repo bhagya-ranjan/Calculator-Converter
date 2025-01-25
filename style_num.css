@@ -61,7 +61,7 @@ body{
     color:white;
 }
 #equals{
-    background-color: #eb841c;
+    background-color: gray;
 }
 .num-one{
     height : 5rem;
@@ -118,7 +118,7 @@ body{
     text-align: end;
     align-content: end;
     font-family: monospace;
-    font-size: 1.5rem;
+    font-size: 1vw;
 }
 .binary-num{
     background-color: #fffffa;
@@ -127,15 +127,7 @@ body{
     text-align: end;
     align-content: end;
     font-family: monospace;
-    font-size: 1.5rem;
+    font-size: 1.2vw;
+    word-wrap: break-word;
 }
-.binary-num:disabled{
-    color : rgb(38, 38, 38)  ;
-    background-color: #fffffa;
-    height:4rem;
-    width: 15rem;
-    text-align: end;
-    align-content: end;
-    font-family: monospace;
-    font-size: 1.5rem;
-}
+
