@@ -4,21 +4,16 @@ body{
     padding: 0px;
 }
 .heading{
+    height: 14vh;
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 4vh;
     font-family: monospace;
     font-weight: 600;
     color : #fffffa;
-}
-#title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width : 25rem;
-    height : 4rem;
     background-color: #702632;
-
+    margin-bottom: 2rem;
 }
 .content{
     display: flex;
@@ -42,15 +37,18 @@ body{
 .box{
     background: none;
     align-content: center;
-    font-size: 2rem;
+    font-size: 2.4rem;
     padding:0.25rem;
-    height : 4.4rem;
-    width:  4.4rem;
+    height : 5rem;
+    width: 5rem;
     border: 2px solid black;
     border-radius: 30%;
     background-color: #303030;
     color: #eb841c;
     font-family: monospace;
+}
+.sign{
+    color:gray;
 }
 .box:hover{
     background-color : rgba(180,180,180,0.5);
@@ -65,13 +63,79 @@ body{
 #equals{
     background-color: #eb841c;
 }
-.display{
-    height : 10rem;
-    margin-bottom: 3rem;
-}
 .num-one{
     height : 5rem;
+    display: flex;
+    justify-content: center;
+    
 }
 .num-two{
     height : 5rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.dec{
+    background-color: #fffffa;
+    height:4rem;
+    width: 5rem;
+    font-size: 1rem;
+    font-family: monospace;
+    align-content: center;
+    margin-right: 0.2rem;
+    text-align:center;
+    background-color: #f2f4f3;
+    color:#38040e;
+    font-weight: 900;
+}
+.binary{
+    background-color: #fffffa;
+    height:4rem;
+    width: 5rem;
+    font-size: 1rem;
+    align-content: center;
+    font-family: monospace;
+    margin-right: 0.2rem;
+    text-align:center;
+    background-color: #f2f4f3;
+    color:#38040e;
+    font-weight: bolder;
+}
+.dec-num{
+    background-color: #fffffa;
+    height:4rem;
+    width: 15rem;
+    text-align: end;
+    align-content: end;
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+.dec-num:disabled{
+    color:rgb(38, 38, 38);
+    background-color: #fffffa;
+    height:4rem;
+    width: 15rem;
+    text-align: end;
+    align-content: end;
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+.binary-num{
+    background-color: #fffffa;
+    height:4rem;
+    width: 15rem;
+    text-align: end;
+    align-content: end;
+    font-family: monospace;
+    font-size: 1.5rem;
+}
+.binary-num:disabled{
+    color : rgb(38, 38, 38)  ;
+    background-color: #fffffa;
+    height:4rem;
+    width: 15rem;
+    text-align: end;
+    align-content: end;
+    font-family: monospace;
+    font-size: 1.5rem;
 }
