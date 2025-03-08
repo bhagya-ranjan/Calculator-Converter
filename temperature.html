@@ -5,15 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>temperature</title>
     <link rel = "stylesheet" href = "styleTemp.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header>
         <div class="heading">
-            <h2>TEMPERATURE CONVERTER</h2>
+            <h2 id = "main">TEMPERATURE CONVERTER</h2>
         </div>
-        <main>
-            
+        <main class = "content">
+            <div class="conversion">
+                <div class="From">
+                    <label for="From">From:</label>
+                    <select id="From" name="From">
+                        <option value="Celsius">Celsius</option>
+                        <option value="Kelvin">Kelvin</option>
+                        <option value="fahrenheit">fahrenheit</option>
+                    </select>
+                </div>
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                <div class="To">
+                    <label for="To">To:</label>
+                    <select id="To" name="To">
+                        <option value="Celsius">Celsius</option>
+                        <option value="Kelvin">Kelvin</option>
+                        <option value="fahrenheit">fahrenheit</option>
+                    </select>
+                </div>
+            </div>
+            <div class="result">
+            </div>
         </main>
+        <div class="footer">
+            <button class = "clear">Clear</button>
+        </div>
     </header>
     <script src = "temp.js"></script>
 </body>
