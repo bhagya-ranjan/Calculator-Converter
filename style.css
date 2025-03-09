@@ -89,3 +89,6 @@ h2{
     font-weight: 600;
     font-family:Arial, Helvetica, sans-serif;
 }
+#delete{
+    border : none;
+}
